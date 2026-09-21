@@ -1,7 +1,8 @@
+import json
 from pathlib import Path
 
 from src.anomaly_detector import AnomalyDetector
-from src.aiops_pipeline import run_pipeline
+from src.aiops_pipeline import load_data, run_pipeline
 from src.event_consumer import EventConsumer
 from src.event_producer import EventProducer
 from src.event_topic import EventTopic
